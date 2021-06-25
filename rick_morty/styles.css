@@ -1,0 +1,152 @@
+/*
+*  html5resetcss
+*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+body {
+  background-color: #fcf9ff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23d51bf6' fill-opacity='0.48' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+main {
+  max-width: 800px;
+  margin: 80px auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+main .title {
+  font-size: 40px;
+  margin: 24px;
+}
+
+main .btn {
+  padding: 16px 78px;
+  border: 1px solid black;
+  -webkit-box-shadow: 4px 4px 0;
+          box-shadow: 4px 4px 0;
+  background-color: #f7f7be;
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+main .btn:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #ff9;
+}
+
+main .card {
+  max-width: 400px;
+  margin: 16px auto;
+  border: 1px solid black;
+  padding: 24px;
+  -webkit-box-shadow: 2px 2px 0;
+          box-shadow: 2px 2px 0;
+  background-color: #f9e6e9;
+}
+
+main .card__name {
+  font-size: 24px;
+  padding: 12px 0;
+  text-transform: uppercase;
+}
+
+main .card__img__image {
+  width: 100%;
+  border-radius: 2px;
+}
+
+main .card__img__caption {
+  font-style: italic;
+  text-align: right;
+}
+
+main .card span {
+  font-weight: 900;
+}
+
+main .card p {
+  margin: 16px 0;
+  text-align: left;
+}
+/*# sourceMappingURL=styles.css.map */
